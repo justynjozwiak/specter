@@ -1,0 +1,18 @@
+{
+    "extends": "react-app",
+    "rules": {
+        "indent": ["error", 4],
+        "semi": [2, "always"],
+        "max-len": ["error", {
+            "code": 120,
+            "ignoreStrings": true,
+            "ignoreTemplateLiterals": true,
+            "ignoreUrls": true
+        }],
+        "quotes": ["error", "single"],
+        "@next/next/no-img-element": "off",
+        "jsx-a11y/alt-text": "off",
+        "react/jsx-no-target-blank": "off",
+        "no-trailing-spaces": "error"
+    }
+}
